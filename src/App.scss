@@ -1,0 +1,22 @@
+.App {
+  font-family: Quicksand, sans-serif;
+  margin-top: 35px;
+  display: inline;
+  background-color: #0f172a;
+}
+
+button,
+select,
+a,
+input,
+textarea {
+  font-family: Quicksand, serif;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+h1{
+  color:whitesmoke !important;
+}
