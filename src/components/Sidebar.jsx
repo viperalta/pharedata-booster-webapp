@@ -35,9 +35,9 @@ import {
   ];
   
   const menuItemsBottom = [
-    { text: 'Settings', icon: <SettingsIcon />, path: '/settings' },
-    { text: 'About', icon: <InfoIcon />, path: '/about' },
-    { text: 'Feedback', icon: <FeedbackIcon />, path: '/feedback' },
+    { text: 'Configuración', icon: <SettingsIcon />, path: '/configuracion' },
+    { text: 'Planes', icon: <InfoIcon />, path: '/planes' },
+    { text: 'Contacto', icon: <FeedbackIcon />, path: '/contacto' },
   ];
   
   export default function Sidebar() {
@@ -111,7 +111,7 @@ import {
         </List>
   
         {/* Plan Expiration Notice */}
-        {/* <Box
+        <Box
           sx={{
             mt: 2,
             p: 2,
@@ -121,10 +121,10 @@ import {
           }}
         >
           <Typography variant="subtitle2" fontWeight="bold" mb={1}>
-            ✨ Plan about to expire
+            ✨ Créditos disponibles se están agotando
           </Typography>
           <Typography variant="body2" color="gray" mb={1}>
-            Enjoy 10% off when renewing your plan today.
+            Compra una nueva bolsa de créditos con 10% de descuento.
           </Typography>
           <Button
             variant="contained"
@@ -140,9 +140,9 @@ import {
               },
             }}
           >
-            Get the discount
+            Obtener descuento
           </Button>
-        </Box> */}
+        </Box> 
   
         {/* User Profile */}
         <Box
